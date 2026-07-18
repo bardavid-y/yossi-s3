@@ -27,7 +27,7 @@ jobs:
           tags: bardavid/yossi-s3:latest
 
       - name: Run Script with S3 Env Variables
-        
+        run: npm start
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
