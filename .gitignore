@@ -1,0 +1,10 @@
+node_modules
+/node_modules
+All_config_keys.txt
+.env
+
+docker-compose.override
+
+
+#IDE 
+.vscode/

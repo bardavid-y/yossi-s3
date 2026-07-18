@@ -9,7 +9,7 @@ const upload = multer({ storage: multer.memoryStorage() });
 // --- PLACEMENT: Put it here, before your routes ---
 // This tells Express to serve static files (like index.html) 
 // from the current folder ('.')
-app.use(express.static('.'));
+app.use(express.static('public'));
 
 // Configure S3 Client
 const s3Client = new S3Client({
