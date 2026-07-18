@@ -24,7 +24,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: bardavid/yossi-s3latest
+          tags: bardavid/yossi-s3:latest
 
       - name: Run Script with S3 Env Variables
         run: npm run deploy
